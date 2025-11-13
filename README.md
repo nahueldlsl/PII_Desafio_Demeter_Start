@@ -27,7 +27,7 @@ IsFaulty()` de la clase `Sensor`.
 
 ## Parte 1
 
-Analiza el código del método `bool AllSensorsOkay()` de la clase `Car`
+Analiza el código del método `int CountFaultySensors()` de la clase `Car`
 considerando la guía de diseño [Don't Talk to
 Strangers](https://github.com/ucudal/PII_Guias/blob/main/Demeter.md).
 
