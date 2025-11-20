@@ -9,6 +9,10 @@ namespace Ucu.Poo.Cars
         /// El freno de la rueda.
         /// </summary>
         public Break Break { get; private set; } = new Break();
+        public int ContarFaultySensors()
+        {
+            return this.Break.ContarFaultySensors();
+        }
     }
 
 }
